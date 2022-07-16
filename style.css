@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image:url(img/xhome-banner.jpg.pagespeed.ic.wpYjhdIc7D.webp);
+}
+
+body{
+    background-color: white;
+}
+
+.hero{
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.hero-text{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#bold{
+    font-size: 50px;
+    line-height: 60px;
+}
+
+#btn{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.phone{
+    display: none;
+}
+
+/* media query */
+
+@media screen and (min-width:900px){
+    .phone{
+        display: block;
+    }
+
+    .hero{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .btn{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width:400px){
+  
+    .hero{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .btn{
+        width: 30%;
+    }
+
+}
